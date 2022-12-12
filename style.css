@@ -1,0 +1,64 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translate(0);
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #FAF8F1 ;
+    margin-top: 3rem;
+}
+
+html{
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 3.15rem ;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin: 10px 50px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.55;
+    color: #181D31;
+    text-align: center;
+
+}
+
+#hello{
+    animation: slideInLeft 1s ease;
+    border: solid;
+    color: #FAEAB1;
+}
+
+#itsme {
+    font-size: 1.57rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    color: #E5BA73;
+    animation: slideInLeft 1.5s ease;
+    border: solid ;
+
+
+}
+
+#name {
+    font-size: 5rem;
+    color: #C58940;
+    animation: slideInLeft 2s ease;
+    border: solid;
+
+}
+
+h2 {
+    color: #FAEAB1;
+}
